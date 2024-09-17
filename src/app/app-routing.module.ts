@@ -12,8 +12,8 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'detalhe-pais',
-    loadChildren: () => import('./detalhe-pais/detalhe-pais.module').then( m => m.DetalhePaisPageModule)
+    path: 'home',
+    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
   }
 ];
 
